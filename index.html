@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="assets/emu.png">
+
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Wonderhoy!</title>
+  </head>
+  <body>
+    <nav class="flex-container">
+      <a href="/" class="redirect">
+				<img id="nav-icon" src="assets/emu.png">
+			</a>
+			<a href="/" class="redirect">Home</a> 
+			<div class="dropdown">
+				<button class="dropdown-button">Pages
+					<i class="down-arrow"></i>
+				</button>
+				<div class="dropdown-content">
+					<a href="/about/" class="redirect">About</a> 
+          <a href="/projects/" class="redirect">Projects</a> 
+          <a href="/blog/" class="redirect">Blog</a> 
+					<a href="/contact/" class="redirect">Contact</a> 
+				</div>
+			</div>
+
+
+
+    </nav>
+    
+    <div class="scroller">
+      <!-- housing div for all scrolling sections -->
+      <!-- REMINDER: all sections are flex boxes with flex direction being column -->
+      <div id="about-section" class="section animation">
+        <h1>About</h1>
+        
+        <p>I am <b>Sero</b>, a high school student currently based in Singapore.</p>
+        <a href="/about/" class="section-redirect-button">
+          <span class="button-before">Portfolio</span>
+          <span class="button-after">YIPPEE!</span>
+        </a>
+        
+      </div>
+      <div id="projects-section" class="section animation">
+        <h1>Projects</h1>
+
+      </div>
+      <div id="blog-section" class="section animation">
+        <h1>Blog</h1>
+
+      </div>
+      <div id="contact-section" class="section animation">
+        <h1>Contact</h1>
+
+      </div>
+    </div>
+
+    <footer>
+      Acknowledgements
+
+      Otori Emu model: 
+      Made by Beru-K in VroidStudio
+      Converted in Unity
+      Hair and Crown by TearlessHen
+      
+      
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
