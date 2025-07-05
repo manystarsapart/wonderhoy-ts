@@ -107,7 +107,7 @@ nav {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: grey;
+  background-color: white;
   min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -123,7 +123,7 @@ nav {
 }
 
 .dropdown-content a:hover {
-  background-color: grey;
+  background-color: lightgrey;
 }
 
 .dropdown:hover .dropdown-content {
@@ -228,7 +228,8 @@ nav {
 
 
 /* ================================ */
-/* FANCY BUTTON */
+/* FANCY PAGE REDIRECT BUTTONS */
+/* CREDITS: https://codepen.io/Stockin/pen/mzydLz */
 
 .section-redirect-button {
   position: relative;
@@ -295,3 +296,97 @@ nav {
 .section-redirect-button:active {
   scale: 0.95;
 }
+
+/* ================================ */
+/* FANCY SOCIALS BUTTONS */
+
+#socials {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  padding-top: 4rem;
+}
+
+#socials li {
+  list-style: none;
+  margin: 0 5px;
+}
+
+#socials li a {
+  text-decoration: none;
+  display: absolute;
+  display: block;
+  width: 210px;
+  height: 80px;
+  background: #fff;
+  text-align: left;
+  padding-left: 20px;
+  transform: rotate(-30deg) skew(25deg) translate(0,0);
+  transition: .5s;
+  box-shadow: -20px 20px 10px rgba(0,0,0,.5);
+}
+
+#socials li a .fa-brands {
+  font-size: 40px;
+  color: #262626;
+  line-height: 80px;
+  transition: .5s;
+  padding-right: 14px;
+  vertical-align: middle;
+}
+
+#socials li a span {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: 30px;
+  color: #262626;
+  letter-spacing: 4px;
+  transition: .5s;
+}
+
+#socials li a:before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  left: -20px;
+  height: 100%;
+  width: 20px;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewY(-45deg);
+}
+
+#socials li a:after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: -10px;
+  height: 20px;
+  width: 100%;
+  background: #b1b1b1;
+  transition: .5s;
+  transform: rotate(0deg) skewX(-45deg);
+}
+
+#socials li a:hover {
+  transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+  box-shadow: -50px 50px 50px rgba(0,0,0,.5);
+}
+
+#socials li:hover .fa-brands,
+#socials li:hover span {
+  color: #fff;
+}
+
+#socials li:hover:nth-child(1) a       { background: #4a4e5a; }
+#socials li:hover:nth-child(1) a:before { background: #3a3e48; }
+#socials li:hover:nth-child(1) a:after  { background: #5a5e6a; }
+
+#socials li:hover:nth-child(2) a       { background: #5865f2; }
+#socials li:hover:nth-child(2) a:before { background: #4753c5; }
+#socials li:hover:nth-child(2) a:after  { background: #6476e6; }
+
+#socials li:hover:nth-child(3) a       { background: #dd4b39; }
+#socials li:hover:nth-child(3) a:before { background: #b33a2b; }
+#socials li:hover:nth-child(3) a:after  { background: #e66a5a; }

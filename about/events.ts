@@ -28,7 +28,7 @@ document.getElementById("steam-list")!.innerHTML = steam_events.map(item => `
 
 document.getElementById("language-list")!.innerHTML = language_events.map(item => `
     <li>
-        <strong>${item.event}</strong> | ${item.date}
+        <strong><span style="font-size:1.1rem">${item.event}</span></strong> | ${item.date}
         <ul>
             ${item.details.map(ach => `<li style="font-style:italic;">${ach}</li>`).join('')}
         </ul>
@@ -37,7 +37,7 @@ document.getElementById("language-list")!.innerHTML = language_events.map(item =
 
 document.getElementById("media-list")!.innerHTML = media_events.map(item => `
     <li>
-        <strong>${item.event}</strong> | ${item.date}
+        <strong><span style="font-size:1.1rem">${item.event}</span></strong> | ${item.date}
         <ul>
             ${item.details.map(ach => `<li style="font-style:italic;">${ach}</li>`).join('')}
         </ul>
@@ -46,7 +46,7 @@ document.getElementById("media-list")!.innerHTML = media_events.map(item => `
 
 document.getElementById("volunteering-list")!.innerHTML = volunteering_events.map(item => `
     <li>
-        <strong>${item.event}</strong> | ${item.date}
+        <strong><span style="font-size:1.1rem">${item.event}</span></strong> | ${item.date}
         <ul>
             ${item.details.map(ach => `<li style="font-style:italic;">${ach}</li>`).join('')}
         </ul>
@@ -55,7 +55,7 @@ document.getElementById("volunteering-list")!.innerHTML = volunteering_events.ma
 
 document.getElementById("misc-list")!.innerHTML = misc_events.map(item => `
     <li>
-        <strong>${item.event}</strong> | ${item.date}
+        <strong><span style="font-size:1.1rem">${item.event}</span></strong> | ${item.date}
         <ul>
             ${item.details.map(ach => `<li style="font-style:italic;">${ach}</li>`).join('')}
         </ul>

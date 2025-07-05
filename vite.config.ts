@@ -13,6 +13,7 @@ export default defineConfig({
         projects: resolve(__dirname, 'projects/index.html'),
         blog: resolve(__dirname, 'blog/index.html'),
         contact: resolve(__dirname, 'contact/index.html'),
+        playground: resolve(__dirname, 'playground/index.html'),
       },
     },
   },

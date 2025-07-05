@@ -98,6 +98,7 @@ animationScripts.push({
     func: () => {
         if (emu) {
             emu.position.z = lerp(-10, 0, scalePercent(0, 40));
+            // emu.position.y = lerp(-5, 0, scalePercent(0, 40))
         }
         camera.position.set(0, 1, 7);
         camera.lookAt(new THREE.Vector3(0, 0, 0));
@@ -112,6 +113,7 @@ animationScripts.push({
     func: () => {
         if (emu) {
             // emu.rotation.y = lerp(0, Math.PI, scalePercent(40, 60));
+            emu.rotation.y += 0.2;
         }
         camera.position.set(0, 1, 7);
         camera.lookAt(new THREE.Vector3(0, 0, 0));
@@ -124,9 +126,10 @@ animationScripts.push({
     start: 60,
     end: 80,
     func: () => {
-        camera.position.x = lerp(0, 1, scalePercent(60, 80));
-        // camera.position.x = 0;
+        // camera.position.x = lerp(0, 1, scalePercent(60, 80));
+        camera.position.x = 0;
         camera.position.y = 1;
+        // camera.position.y += 0.1;
         // camera.position.y = lerp(1, 20, scalePercent(60, 80));
 
         camera.position.z = 7;
@@ -142,7 +145,8 @@ animationScripts.push({
     func: () => {
         if (emu) {
             // emu.rotation.x += 0.1;
-            emu.rotation.y += 0.1;
+
+            emu.rotation.z += 0.5;
         }
     }
 });
