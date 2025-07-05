@@ -7,8 +7,9 @@
     
         <link rel="stylesheet" href="/src/style.css">
         <title>About</title>
+        <script type="module" src="./events.ts"></script>
     </head>
-<body>
+<body id="about-body" class="subpage-body">
     <nav class="flex-container">
         <a href="/" class="redirect">
             <img id="nav-icon" src="/assets/emu.png">
@@ -22,14 +23,53 @@
             <a href="/about/" class="redirect">About</a> 
             <a href="/projects/" class="redirect">Projects</a> 
             <a href="/blog/" class="redirect">Blog</a> 
-                      <a href="/contact/" class="redirect">Contact</a> 
+            <a href="/contact/" class="redirect">Contact</a> 
                   </div>
               </div>
   
-  
-  
       </nav>
-    WIP.
-    <a href="/">back</a>
+
+    <div class="subpage-content centered" style="width: 40% !important"> <!-- custom width to override centered class -->
+        <h1>About</h1>
+        WIP.
+        <a href="/">back</a>
+
+        <hr>
+        
+        <h1>Education</h1>
+        <ul id="education-list" class="event-list"></ul>
+
+        <!-- <h1>Work</h1>
+        <ul id="work-list" class="event-list"></ul> -->
+
+        <!-- TODO WHEN I FIND WORK -->
+
+        <h1>Timeline</h1>
+        <h2>STEAM</h2>
+        <ul id="steam-list" class="event-list"></ul>
+        <br \>
+        <h2>Bilingualism & Language Arts</h2>
+        <ul id="language-list" class="event-list"></ul>
+        <br \>
+        <h2>Media & Production</h2>
+        <ul id="media-list" class="event-list"></ul>
+        <br \>
+        <h2>Volunteering</h2>
+        <ul id="volunteering-list" class="event-list"></ul>
+        <br \>
+        <h2>Miscellaneous</h2>
+        <ul id="misc-list" class="event-list"></ul>
+        <br \>
+    </div>
+
+    <style>
+        /* .event-list {
+            margin-bottom: 1rem;
+        } */
+
+        .event-list > li {
+            margin-top: 0.5rem;
+        }
+    </style>
 </body>
 </html>

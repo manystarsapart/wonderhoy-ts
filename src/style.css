@@ -4,8 +4,9 @@
   font-weight: 400;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  /* color: rgba(255, 255, 255, 0.87); */
+  color: rgba(0,0,0,1);
+  background-color: white;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -17,10 +18,16 @@
   outline: solid red 2px;
 } */
 
-body {
-  overflow: hidden;
+html, body {
+  overscroll-behavior: none;
+  overflow: auto;
   padding: 0;
   margin: 0;
+  height: 100%;
+}
+
+.subpage-body {
+  padding-top: 2rem;
 }
 
 .centered {
@@ -31,6 +38,10 @@ body {
   width: 50%
 }
 
+li {
+  text-align: left;
+}
+
 
 /* ================================ */
 /* nav */
@@ -38,13 +49,14 @@ body {
 nav {
   background-color: rgba(255, 255, 255, 0.6);;
   /* background-color: black; */
+  height: 2rem;
   padding: 10px;
   list-style-type: none;
   margin: 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
   width: 100%;
   top: 0;
   z-index: 1000;
@@ -119,6 +131,15 @@ nav {
 }
 
 /* ================================ */
+/* subpage layout */
+.subpage-content {
+  padding: 1rem;
+
+  
+}
+
+
+/* ================================ */
 /* scrolling & animation */
 
 /* container for all scrollable sections */
@@ -145,6 +166,7 @@ nav {
   transform: translateY(40px);
   transition: opacity 0.6s ease, transform 0.6s ease;
 }
+
 .animation.visible {
   opacity: 1;
   transform: translateY(0);
@@ -155,25 +177,55 @@ nav {
 /* sections */
 
 /* #about-section {
-  background-color: darkslateblue;
-
-} */
+  background-color: rgb(87, 74, 226, 0.5);
+}
 
 #projects-section {
-  /* background-color: darkslateblue; */
-  background-color: rgb(72, 61, 139, 0.5);
+  background-color: rgb(34, 42, 104, 0.9);
   
 }
 
 #blog-section {
-  background-color: skyblue;
-  background-color: rgb(135, 206, 235, 0.5);
+  background-color: rgb(101, 69, 151, 0.5)
 }
 
 #contact-section {
-  background-color: darkslategrey;
+  background-color: rgb(171, 129, 205, 0.5);
+} */
+
+#landing-section {
+  background-color: rgb(255, 214, 255);
+  height:100%;
+}
+
+#about-section, #about-body {
+  background-color: rgb(231, 198, 255);
+  min-height:1vh;
+}
+
+#projects-section, #projects-body {
+  /* background-color: darkslateblue; */
+  /* background-color: rgb(72, 61, 139, 0.5); */
+  background-color: rgb(200, 182, 255);
+  height:100%;
   
 }
+
+#blog-section, #blog-body {
+  /* background-color: skyblue; */
+  /* background-color: rgb(135, 206, 235, 0.5); */
+  background-color: rgb(184, 192, 255);
+  height:100%;
+}
+
+#contact-section, #contact-body {
+  /* background-color: darkslategrey; */
+  background-color: rgb(187, 208, 255);
+  height:100%;
+}
+
+
+
 
 /* ================================ */
 /* FANCY BUTTON */

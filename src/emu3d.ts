@@ -6,7 +6,7 @@ import Stats from 'three/examples/jsm/libs/stats.module.js';
 // SCENE
 
 const scene = new THREE.Scene();
-scene.background = new THREE.Color(0xffffff);
+// scene.background = new THREE.Color(0xffffff);
 
 // debug
 // const gridHelper = new THREE.GridHelper(10, 10, 0xaec6cf, 0xaec6cf);

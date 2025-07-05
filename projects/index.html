@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    <link rel="stylesheet" href="/src/style.css">
     <title>Projects</title>
 </head>
 <style>
@@ -10,7 +12,27 @@
         color: rgb(255,255,255,0);
     }
 </style>
-<body>
+<body id="projects-body" class="subpage-body">
+    <nav class="flex-container">
+    <a href="/" class="redirect">
+    <img id="nav-icon" src="/assets/emu.png">
+    </a>
+    <a href="/" class="redirect">Home</a> 
+    <div class="dropdown">
+        <button class="dropdown-button">Pages
+            <i class="down-arrow"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="/about/" class="redirect">About</a> 
+            <a href="/projects/" class="redirect">Projects</a> 
+            <a href="/blog/" class="redirect">Blog</a> 
+            <a href="/contact/" class="redirect">Contact</a> 
+        </div>
+    </div>
+    </nav>
+    WIP.
+    <a href="/">back</a>
+
     <canvas id="canvas"></canvas>
     <script type="module" src="/src/emu3d.ts"></script>
     <p>hi</p>
@@ -186,7 +208,8 @@
 </body>
 <style>
     body {
-        /* background-color: black; */
+        background-color: black;
+        overflow:auto
     }
 
     #canvas {
@@ -196,7 +219,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 0;
+    z-index: 1;
     pointer-events: none;
 }
 </style>
