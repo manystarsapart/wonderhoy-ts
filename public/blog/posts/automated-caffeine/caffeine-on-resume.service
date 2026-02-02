@@ -1,0 +1,10 @@
+[Unit]
+Description=Caffeine reminder on resume
+After=suspend.target
+
+[Service]
+Type=simple
+ExecStart=/home/aya/Documents/caffeineReminder.sh
+
+[Install]
+WantedBy=suspend.target

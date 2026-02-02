@@ -1,0 +1,20 @@
+# Rime dictionary
+# encoding: utf-8
+
+
+# self-defined usage file. by @manystarsapart on github.
+
+---
+name: luna_pinyin.selfdefined
+version: "2025.09.20"
+sort: by_weight
+use_preset_vocabulary: true
+...
+通用吴语拼音	
+守矢	
+守矢神社	
+姬海棠果	
+古明地觉 	
+哈基米	
+
+

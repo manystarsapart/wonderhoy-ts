@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/home/aya/Documents/caffeineReminder.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Caffeine Reminder
+Comment=Prompts to remind user to turn on caffeine

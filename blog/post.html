@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="/assets/emu.png">
+        <link rel="stylesheet" href="/src/style.css">
+        <title>Blog Post</title>
+    </head>
+<body  id="blog-body" class="subpage-body">
+    <nav class="flex-container">
+        <a href="/" class="redirect">
+            <img id="nav-icon" src="/assets/emu.png">
+            </a>
+            <a href="/" class="redirect">Home</a> 
+            <div class="dropdown">
+                <button class="dropdown-button">Pages
+                    <i class="down-arrow"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="/about/" class="redirect">About</a> 
+                    <a href="/projects/" class="redirect">Projects</a> 
+                    <a href="/blog/" class="redirect">Blog</a> 
+                    <a href="/contact/" class="redirect">Contact</a> 
+                </div>
+            </div>
+  
+  
+  
+      </nav>
+    <div class="subpage-content">
+        <br>
+        <div id="post-container">
+            <article id="post">
+                No content. This may be an error. Try refreshing? <a href="/blog/">Back</a>
+            </article>
+        </div>
+
+    </div>
+    <script type="module" src="./post.ts"></script>
+</body>
+
+</html>
+
+<style>
+.post-content a {
+  color:blue;
+}
+
+.post-content a:visited {
+    color:rebeccapurple;
+}
+</style>

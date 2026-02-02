@@ -1,0 +1,118 @@
+[17:20:19] aya@shameimaru /home/aya/.config/ibus/rime  
+> ls -lhaR  
+
+.:
+total 46M
+drwxrwxr-x 5 aya aya 4.0K Sep 20 17:05 .
+drwx------ 4 aya aya 4.0K Mar 20  2025 ..
+-rw-rw-r-- 1 aya aya  627 Mar 20  2025 bopomofo_express.schema.yaml
+-rw-rw-r-- 1 aya aya 5.2K Mar 20  2025 bopomofo.schema.yaml
+-rw-rw-r-- 1 aya aya  770 Mar 20  2025 bopomofo_tw.schema.yaml
+drwxrwxr-x 2 aya aya 4.0K Sep 20 17:04 build
+-rw-rw-r-- 1 aya aya 771K Mar 20  2025 cangjie5.dict.yaml
+-rw-rw-r-- 1 aya aya 2.5K Mar 20  2025 cangjie5_express.schema.yaml
+-rw-rw-r-- 1 aya aya 2.4K Mar 20  2025 cangjie5.schema.yaml
+-rw-rw-r-- 1 aya aya  192 Sep 20 14:51 default.custom.yaml
+-rw-rw-r-- 1 aya aya 1.1K Sep 20 14:59 double_pinyin_flypy.custom.yaml
+-rw-rw-r-- 1 aya aya 5.7M Mar 20  2025 essay.txt
+-rw-rw-r-- 1 aya aya  204 Mar 24 22:12 installation.yaml
+-rw-rw-r-- 1 aya aya 2.9K Mar 20  2025 key_bindings.yaml
+-rw-rw-r-- 1 aya aya 438K Sep 20 15:12 luna_pinyin.anime.dict.yaml
+-rw-rw-r-- 1 aya aya 1.9M Sep 20 15:17 luna_pinyin.basis.dict.yaml
+-rw-rw-r-- 1 aya aya  48K Sep 20 15:18 luna_pinyin.chat.dict.yaml
+-rw-rw-r-- 1 aya aya 132K Sep 20 15:16 luna_pinyin.computer.dict.yaml
+-rw-rw-r-- 1 aya aya 3.9M Sep 20 15:20 luna_pinyin.daily.dict.yaml
+-rw-rw-r-- 1 aya aya 871K Sep 20 16:54 luna_pinyin.dict.yaml
+-rw-rw-r-- 1 aya aya 1.2K Sep 20 16:54 luna_pinyin.extended.dict.yaml
+-rw-rw-r-- 1 aya aya  527 Mar 20  2025 luna_pinyin_fluency.schema.yaml
+-rw-rw-r-- 1 aya aya 1.7M Sep 20 15:21 luna_pinyin.hanyu.dict.yaml
+-rw-rw-r-- 1 aya aya 858K Sep 20 15:21 luna_pinyin.idiom.dict.yaml
+-rw-rw-r-- 1 aya aya  94K Sep 20 15:15 luna_pinyin.name.dict.yaml
+-rw-rw-r-- 1 aya aya 410K Sep 20 15:14 luna_pinyin.net.dict.yaml
+-rw-rw-r-- 1 aya aya 2.1K Mar 20  2025 luna_pinyin.schema.yaml
+-rw-rw-r-- 1 aya aya  284 Sep 20 17:05 luna_pinyin.selfdefined.dict.yaml
+-rw-rw-r-- 1 aya aya  739 Mar 20  2025 luna_pinyin_simp.schema.yaml
+-rw-rw-r-- 1 aya aya  26M Sep 20 15:21 luna_pinyin.sougou.dict.yaml
+-rw-rw-r-- 1 aya aya  623 Mar 20  2025 luna_pinyin_tw.schema.yaml
+drwxr-xr-x 2 aya aya 4.0K Sep 20 17:04 luna_pinyin.userdb
+-rw-rw-r-- 1 aya aya  398 Mar 20  2025 luna_quanpin.schema.yaml
+-rw-rw-r-- 1 aya aya 4.8K Mar 20  2025 pinyin.yaml
+-rw-rw-r-- 1 aya aya 2.1K Mar 20  2025 punctuation.yaml
+-rw-rw-r-- 1 aya aya 2.2M Mar 20  2025 stroke.dict.yaml
+-rw-rw-r-- 1 aya aya 3.0K Mar 20  2025 stroke.schema.yaml
+-rw-rw-r-- 1 aya aya  28K Mar 20  2025 symbols.yaml
+drwxrwxr-x 3 aya aya 4.0K Sep 20 14:26 sync
+-rw-rw-r-- 1 aya aya 1.8M Mar 20  2025 terra_pinyin.dict.yaml
+-rw-rw-r-- 1 aya aya 4.4K Mar 20  2025 terra_pinyin.schema.yaml
+-rw-rw-r-- 1 aya aya  290 Sep 20 17:04 user.yaml
+-rw-rw-r-- 1 aya aya 1.2K Mar 20  2025 zhuyin.yaml
+
+./build:
+total 64M
+drwxrwxr-x 2 aya aya 4.0K Sep 20 17:04 .
+drwxrwxr-x 5 aya aya 4.0K Sep 20 17:05 ..
+-rw-rw-r-- 1 aya aya 4.7K Sep 20 16:55 default.yaml
+-rw-rw-r-- 1 aya aya  15K Sep 20 17:04 double_pinyin_flypy.prism.bin
+-rw-rw-r-- 1 aya aya  220 Sep 20 16:55 ibus_rime.yaml
+-rw-rw-r-- 1 aya aya  32K Sep 20 17:04 luna_pinyin.prism.bin
+-rw-rw-r-- 1 aya aya 248K Sep 20 17:04 luna_pinyin.reverse.bin
+-rw-rw-r-- 1 aya aya  41K Sep 20 16:55 luna_pinyin.schema.yaml
+-rw-rw-r-- 1 aya aya  32K Sep 20 17:04 luna_pinyin_simp.prism.bin
+-rw-rw-r-- 1 aya aya  41K Sep 20 16:55 luna_pinyin_simp.schema.yaml
+-rw-rw-r-- 1 aya aya  58M Sep 20 17:04 luna_pinyin.table.bin
+-rw-rw-r-- 1 aya aya 2.3M Sep 20 16:55 stroke.prism.bin
+-rw-rw-r-- 1 aya aya 886K Sep 20 16:55 stroke.reverse.bin
+-rw-rw-r-- 1 aya aya 6.3K Sep 20 16:55 stroke.schema.yaml
+-rw-rw-r-- 1 aya aya 2.9M Sep 20 16:55 stroke.table.bin
+
+./luna_pinyin.userdb:
+total 352K
+drwxr-xr-x 2 aya aya 4.0K Sep 20 17:04 .
+drwxrwxr-x 5 aya aya 4.0K Sep 20 17:05 ..
+-rw-r--r-- 1 aya aya 316K Sep 20 16:31 008742.ldb
+-rw-r--r-- 1 aya aya  163 Sep 20 16:34 008744.ldb
+-rw-r--r-- 1 aya aya  165 Sep 20 16:55 008763.ldb
+-rw-r--r-- 1 aya aya   70 Sep 20 17:04 008773.log
+-rw-r--r-- 1 aya aya   16 Sep 20 17:04 CURRENT
+-rw-r--r-- 1 aya aya    0 Mar 24 22:12 LOCK
+-rw-r--r-- 1 aya aya  190 Sep 20 17:04 LOG
+-rw-r--r-- 1 aya aya  190 Sep 20 17:04 LOG.old
+-rw-r--r-- 1 aya aya  227 Sep 20 17:04 MANIFEST-008772
+
+./sync:
+total 12K
+drwxrwxr-x 3 aya aya 4.0K Sep 20 14:26 .
+drwxrwxr-x 5 aya aya 4.0K Sep 20 17:05 ..
+drwxrwxr-x 2 aya aya 4.0K Sep 20 14:26 56fe7ba5-2ba9-4fd7-b3d4-e35a926042f4
+
+./sync/56fe7ba5-2ba9-4fd7-b3d4-e35a926042f4:
+total 12M
+drwxrwxr-x 2 aya aya 4.0K Sep 20 14:26 .
+drwxrwxr-x 3 aya aya 4.0K Sep 20 14:26 ..
+-rw-rw-r-- 1 aya aya  627 Sep 20 14:26 bopomofo_express.schema.yaml
+-rw-rw-r-- 1 aya aya 5.2K Sep 20 14:26 bopomofo.schema.yaml
+-rw-rw-r-- 1 aya aya  770 Sep 20 14:26 bopomofo_tw.schema.yaml
+-rw-rw-r-- 1 aya aya 771K Sep 20 14:26 cangjie5.dict.yaml
+-rw-rw-r-- 1 aya aya 2.5K Sep 20 14:26 cangjie5_express.schema.yaml
+-rw-rw-r-- 1 aya aya 2.4K Sep 20 14:26 cangjie5.schema.yaml
+-rw-rw-r-- 1 aya aya  192 Sep 20 14:50 default.custom.yaml
+-rw-rw-r-- 1 aya aya 1.4K Sep 20 14:26 default.yaml
+-rw-rw-r-- 1 aya aya 5.7M Sep 20 14:26 essay.txt
+-rw-rw-r-- 1 aya aya  204 Sep 20 14:26 installation.yaml
+-rw-rw-r-- 1 aya aya 2.9K Sep 20 14:26 key_bindings.yaml
+-rw-rw-r-- 1 aya aya 871K Sep 20 14:26 luna_pinyin.dict.yaml
+-rw-rw-r-- 1 aya aya  527 Sep 20 14:26 luna_pinyin_fluency.schema.yaml
+-rw-rw-r-- 1 aya aya 2.1K Sep 20 14:26 luna_pinyin.schema.yaml
+-rw-rw-r-- 1 aya aya  739 Sep 20 14:26 luna_pinyin_simp.schema.yaml
+-rw-rw-r-- 1 aya aya  623 Sep 20 14:26 luna_pinyin_tw.schema.yaml
+-rw-rw-r-- 1 aya aya 458K Sep 20 14:50 luna_pinyin.userdb.txt
+-rw-rw-r-- 1 aya aya  398 Sep 20 14:26 luna_quanpin.schema.yaml
+-rw-rw-r-- 1 aya aya 4.8K Sep 20 14:26 pinyin.yaml
+-rw-rw-r-- 1 aya aya 2.1K Sep 20 14:26 punctuation.yaml
+-rw-rw-r-- 1 aya aya 2.2M Sep 20 14:26 stroke.dict.yaml
+-rw-rw-r-- 1 aya aya 3.0K Sep 20 14:26 stroke.schema.yaml
+-rw-rw-r-- 1 aya aya  28K Sep 20 14:26 symbols.yaml
+-rw-rw-r-- 1 aya aya 1.8M Sep 20 14:26 terra_pinyin.dict.yaml
+-rw-rw-r-- 1 aya aya 4.4K Sep 20 14:26 terra_pinyin.schema.yaml
+-rw-rw-r-- 1 aya aya  290 Sep 20 14:50 user.yaml
+-rw-rw-r-- 1 aya aya 1.2K Sep 20 14:26 zhuyin.yaml

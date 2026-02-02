@@ -1,0 +1,45 @@
+#### General
+
+- `c` --> `clear`
+- `l` --> `ls -lha`
+- `lr` --> `ls -lhaR` (recursively lists all files in the dir)
+- `s` --> `sudo`
+- `fp` --> `fish --private` (launches fish in private mode)
+- `copy` --> `| xclip -selection clipboard` (pipes output of command into clipboard)
+- `commands` --> `cat ~/Documents/scripts/commands_help.txt | less` (shows a guide to these abbreviated commands)
+
+#### Settings & Debug
+
+- `power-saver` --> `powerprofilesctl set power-saver`
+- `balanced` --> `powerprofilesctl set balanced`
+- `performance` --> `powerprofilesctl set performance`
+- `cpufreq` --> `watch -n 0.5 "grep 'cpu MHz' /proc/cpuinfo | head -n $(nproc)"` (shows frequencies of all CPU cores)
+- `sysinfo` --> `sudo -E ~/Documents/scripts/printsysinfo_new.sh | xclip -selection clipboard` (copies debug information to clipboard)
+- `printsysinfo` --> `sudo -E ~/Documents/scripts/printsysinfo_new.sh` (prints debug information in terminal)
+
+#### Package Management
+
+- `sau` --> `sudo apt update`
+- `sai` --> `sudo apt install`
+- `saa` --> `sudo apt autoremove`
+
+#### Git & Dev
+
+- `gad` --> `git add .`
+- `gc` --> `git commit -S -m "%"` where % becomes cursor location
+- `gp` --> `git push`
+- `gpl` --> `git pull`
+- `nrd` --> `npm run dev` (vite)
+- `nrb` --> `npm run build` (vite)
+- `nrp` --> `npm run preview` (vite)
+
+#### Greeting
+- `fg` --> `fish_greeting` (displays randomised greeting message)
+
+#### Apps & Misc
+
+- Ctrl + Alt + P --> launch fish in private mode
+- `co` --> `codium` (launches codium)
+- `ghidra` --> `~/ghidra_11.3.2_PUBLIC/ghidraRun` (launches ghidra)
+- `autopsy` --> `~/autopsy/autopsy-4.22.1/bin/autopsy` (launches autopsy)
+- `openseeface` --> `~/Documents/runOpenSeeFace.sh` (starts face detection)
