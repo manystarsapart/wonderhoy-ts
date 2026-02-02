@@ -6,7 +6,7 @@ author: 'msa'
 image:
     url: '/blog/posts/virtual-avatar/OBSAvatarDemo2.png'
     alt: 'Customised welcome message on fish shell'
-tags: ["Linux", "Entertainment"]
+tags: ["Linux", "Entertainment", "Tech-Journal"]
 ---
 
 # VTuber avatar on Ubuntu

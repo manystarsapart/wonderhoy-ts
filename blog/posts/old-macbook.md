@@ -6,7 +6,7 @@ author: 'msa'
 image:
     url: '/blog/posts/old-macbook/img/specs.png'
     alt: 'Emu Otori'
-tags: ["Linux"]
+tags: ["Linux", "Tech-Journal"]
 ---
 
 # Revitalising my old Macbook with Linux

@@ -6,7 +6,7 @@ author: 'msa'
 image:
     url: '/blog/posts/fish-prompt/gradientDemo.png'
     alt: 'Demo of the terminal prompt showing a colour gradient for current directory path'
-tags: ["Linux", "Terminal"]
+tags: ["Linux", "Terminal", "Tech-Journal"]
 ---
 
 # Fish Shell Prompt

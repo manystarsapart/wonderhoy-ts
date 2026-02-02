@@ -6,7 +6,7 @@ author: 'msa'
 image:
     url: '/assets/emu.png'
     alt: 'Emu Otori'
-tags: [""]
+tags: ["Be like a rocky promontory."]
 ---
 
 # Hello!
@@ -21,11 +21,13 @@ I had (and still have!) **ambitious plans** for this website. My plans were to m
 
 ---
 
-I have transferred my past blog posts from [my GitHub Repository "Misc"](https://github.com/manystarsapart/misc) over to the Blog section of this website. **My future endeavors, be it tech-related or just random musings, will be published here**. Thank you for reading until this point. Maybe check my other posts out after reading this? 
+## Wonderhoy!
+
+I have transferred my past blog posts from [my GitHub Repository "misc"](https://github.com/manystarsapart/misc) over to the Blog section of this website. **My future endeavors, be it tech-related or just random musings, will be published here**. Thank you for reading until this point. Maybe check my other posts out after reading this? 
 
 If you want to find out further what type of nerd I am, here's the little intro I wrote in September:
 
-## whoami
+### whoami
 
 Yahallo! I'm **sero**.
 
@@ -39,7 +41,8 @@ Signing off, sero (22 Sep 2025)
 
 ---
 
-And here's a quote by Marcus Aurelius that I like:
+
+And here's a quote by Marcus Aurelius that I keep around:
 
     Be like a rocky promontory against which the restless surf continually pounds; 
     it stands fast while the churning sea is lulled to sleep at its feet. 
@@ -49,3 +52,5 @@ And here's a quote by Marcus Aurelius that I like:
     and am not afraid of what is about to happen. 
     The same blow might have struck anyone, 
     but not many would have absorbed it without capitulation or complaint."
+
+---

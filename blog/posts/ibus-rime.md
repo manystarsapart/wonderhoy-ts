@@ -6,7 +6,7 @@ author: 'msa'
 image:
     url: '/blog/posts/ibus-rime/img/lunaextended.png'
     alt: 'IBus Rime expansion bank'
-tags: ["Linux"]
+tags: ["Linux", "Tech-Journal"]
 ---
 
 # Expanding & Customising IBus Rime

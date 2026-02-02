@@ -6,7 +6,7 @@ author: 'msa'
 image:
     url: '/blog/posts/arknights-waydroid/duskthumb.jpeg'
     alt: 'Emu Otori'
-tags: ["Entertainment","Android","Linux"]
+tags: ["Entertainment", "Android", "Linux", "Tech-Journal"]
 ---
 
 # Arknights on Waydroid

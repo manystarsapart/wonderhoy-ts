@@ -162,9 +162,9 @@ function renderPosts() {
         <i>${post.description ?? ''}</i>
         </p>
         ${post.tags ? `
-          <ul class="tags">
-            ${post.tags.map((t: string) => `<li>${t}</li>`).join('')}
-          </ul>
+          <ul class="tags"><li>
+            ${post.tags.map((t: string) => `${t}`).join(', ')}
+          </li></ul>
         ` : ''}
       </div>
       ${post.image ? ` 

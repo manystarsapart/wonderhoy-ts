@@ -6,7 +6,7 @@ author: 'msa'
 image:
     url: '/assets/emu.png'
     alt: 'Emu Otori'
-tags: ["Linux"]
+tags: ["Linux", "Tech-Journal"]
 ---
 
 # Attempt on automating a Caffeine workflow

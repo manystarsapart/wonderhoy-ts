@@ -6,7 +6,7 @@ author: 'msa'
 image:
     url: '/blog/posts/init-script/initScriptDemoMain.png'
     alt: 'Customised welcome message on fish shell'
-tags: ["Linux", "Terminal"]
+tags: ["Linux", "Terminal", "Tech-Journal"]
 ---
 
 # Fish shell init script

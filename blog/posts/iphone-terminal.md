@@ -6,7 +6,7 @@ author: 'msa'
 image:
     url: '/blog/posts/iphone-terminal/img/neofetch.png'
     alt: 'Neofetch command on the iPhone terminal'
-tags: ["iOS","Terminal"]
+tags: ["iOS", "Terminal", "Tech-Journal"]
 ---
 
 # iPhone Terminal
