@@ -1,5 +1,37 @@
 [
     {
+        "event": "Flavortown by Hack Club",
+        "date": "Dec 2025 - Mar 2026",
+        "details": []
+    },
+    {
+        "event": "Yes But No (YBN) CTF",
+        "date": "Jan 2026",
+        "details": []
+    },
+    {
+        "event": "Singapore Infomatics League",
+        "date": "Nov 2025",
+        "details": []
+    },
+    {
+        "event": "Physics Brawl Online",
+        "date": "Nov 2025",
+        "details": [
+            "Obtained international 92nd place (team) in category O."
+        ]
+    },
+    {
+        "event": "Lag & Crash CTF",
+        "date": "Jul 2025",
+        "details": []
+    },
+    {
+        "event": "Sieberrsec CTF",
+        "date": "Jul 2025",
+        "details": []
+    },
+    {
         "event": "Summer of Making by Hack Club",
         "date": "Jun - Aug 2025",
         "details": []
@@ -136,13 +168,6 @@
         "date": "Mar 2024",
         "details": [
             "Obtained 3rd Placing (Team)."
-        ]
-    },
-    {
-        "event": "DSTA Work Experience Programme",
-        "date": "Jan 2024",
-        "details": [
-            "Worked on an on-site project in Defence, Science and Technology Agency Singapore."
         ]
     },
     {

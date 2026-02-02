@@ -4,6 +4,7 @@ import language_events from "./timeline_data_language.json" assert {type:'json'}
 import media_events from "./timeline_data_media.json" assert {type:'json'};
 import volunteering_events from "./timeline_data_volunteering.json" assert {type:'json'};
 import misc_events from "./timeline_data_misc.json" assert {type:'json'};
+import work_events from "./work_data.json" assert {type:'json'};
 
 // console.log(language_events);
 document.getElementById("education-list")!.innerHTML = education_items.map(item => `
@@ -15,6 +16,14 @@ document.getElementById("education-list")!.innerHTML = education_items.map(item 
     </li>
 `).join('');
 
+document.getElementById("work-list")!.innerHTML = work_events.map(item => `
+    <li>
+        <strong><span style="font-size:1.1rem">${item.event}</span></strong> | ${item.date}
+        <ul>
+            ${item.details.map(ach => `<li style="font-style:italic;">${ach}</li>`).join('')}
+        </ul>
+    </li>
+`).join('');
 
 document.getElementById("steam-list")!.innerHTML = steam_events.map(item => `
     <li>
