@@ -11,7 +11,7 @@ tags: ["CAD", "3D Printing", "Entertainment", "Tech-Journal"]
 
 # CADing a Case for Arknights Authorisation Passes
 
-![DIAG](../../public/blog/posts/arknights-CAD/img/DIAG.jpeg) 
+![DIAG](/blog/posts/arknights-CAD/img/DIAG.jpeg) 
 
 ## Preface
 
@@ -29,35 +29,35 @@ I opted to use FreeCAD since Fusion360 (which I had previously used) is unavaila
 
 First we start with a rectangle. 
 
-![CAD1 - Box](../../public/blog/posts/arknights-CAD/img/CAD1.png) 
+![CAD1 - Box](/blog/posts/arknights-CAD/img/CAD1.png) 
 
 Then we put a hole through the rectangle. Then another one. Note that we are doing this through `Sketch` then pocketing said sketch down on the `Part Design` Toolbench.
 
-![CAD3 - RearSketch](../../public/blog/posts/arknights-CAD/img/CAD3.png) 
+![CAD3 - RearSketch](/blog/posts/arknights-CAD/img/CAD3.png) 
 
-![CAD4 - BottomSketch](../../public/blog/posts/arknights-CAD/img/CAD4.png) 
+![CAD4 - BottomSketch](/blog/posts/arknights-CAD/img/CAD4.png) 
 
 Below shows the product after pocketing. I left 0.25mm of allowance for both of the dimensions to let the acrylic slide in snugly.
 
-![CAD2 - Box w. holes](../../public/blog/posts/arknights-CAD/img/CAD2.png) 
+![CAD2 - Box w. holes](/blog/posts/arknights-CAD/img/CAD2.png) 
 
 HOWEVER. I realise that whatever I made above didn't give me room to make the top face's bevel (i.e. the funny border on the top side preventing the acrylic from falling out). Hence I resketched the top face and pocketed down from there.
 
-![CAD5 - Bevel](../../public/blog/posts/arknights-CAD/img/CAD5.png) 
+![CAD5 - Bevel](/blog/posts/arknights-CAD/img/CAD5.png) 
 
 Ta-da! Bevel hole has been pocketed down. All that's left is to give it a few fillets here and there and chamfer the bottom part (in contact with printing bed) because I heard that is what you do.
 
 #### Final V1
 
-![CAD6 - V1](../../public/blog/posts/arknights-CAD/img/CAD6.png) 
+![CAD6 - V1](/blog/posts/arknights-CAD/img/CAD6.png) 
 
 I sliced the model at 20% grid infill + normal supports and went to take a bath. 
 
-![PRINT1 - Printing V1](../../public/blog/posts/arknights-CAD/img/PRINT1.jpeg) 
+![PRINT1 - Printing V1](/blog/posts/arknights-CAD/img/PRINT1.jpeg) 
 
 By the time it finished printing, the time was already 0400h in the morning. We had arrived at the V1 product, and it fit too well. First ever self-CAD product! Please clap for me. I cut out the supports, put the acrylic in and went to sleep.
 
-![PRINT2 - Printed V1](../../public/blog/posts/arknights-CAD/img/PRINT2.jpeg) 
+![PRINT2 - Printed V1](/blog/posts/arknights-CAD/img/PRINT2.jpeg) 
 
 
 ### V2
@@ -76,15 +76,15 @@ I tried to resketch the bevel face but making the top thicker would cover a lot 
 
 Verdict: **No change to that bridge.**
 
-![CAD7 - V1 weak](../../public/blog/posts/arknights-CAD/img/CAD7.jpeg) 
+![CAD7 - V1 weak](/blog/posts/arknights-CAD/img/CAD7.jpeg) 
 
 #### Improvement 2: Bottom-face Art
 
 This is the most regrettable part. I tried for a few hours to get a vector svg (sanitised via Inkscape) into FreeCAD but there was always something wrong. Same went with embossing words on top of the bevel face. In the end, I stuck to just **normal designs and nothing on the bottom face**. Below are a few images of my FreeCAD imploding, literally. 
 
-![CAD8 - Vector Attempt](../../public/blog/posts/arknights-CAD/img/CAD8.png) 
+![CAD8 - Vector Attempt](/blog/posts/arknights-CAD/img/CAD8.png) 
 
-![CAD9 - Vector Attempt 2](../../public/blog/posts/arknights-CAD/img/CAD9.png) 
+![CAD9 - Vector Attempt 2](/blog/posts/arknights-CAD/img/CAD9.png) 
 
 ^ I could not stick the vector graphic on......
 
@@ -94,7 +94,7 @@ Haha funny lines go brr. These sketches may look like a lot but in reality they 
 
 In the end, I went for a bunch of wire-like lines. 
 
-![CAD10 - V2 Bevel](../../public/blog/posts/arknights-CAD/img/CAD10.png) 
+![CAD10 - V2 Bevel](/blog/posts/arknights-CAD/img/CAD10.png) 
 
 #### Final V2
 
@@ -104,15 +104,15 @@ Notably, I also chamfered away some of the top side of the case, to allow for ea
 
 Behold, V2's final design.
 
-![CAD11 - V2](../../public/blog/posts/arknights-CAD/img/CAD11.png) 
+![CAD11 - V2](/blog/posts/arknights-CAD/img/CAD11.png) 
 
 The printer's sound is music to my ears.
 
-![PRINT3 - Printed V2](../../public/blog/posts/arknights-CAD/img/PRINT3.jpeg)
+![PRINT3 - Printed V2](/blog/posts/arknights-CAD/img/PRINT3.jpeg)
 
 ## Final Products
 
-![PRODUCT](../../public/blog/posts/arknights-CAD/img/PRODUCT.jpeg)
+![PRODUCT](/blog/posts/arknights-CAD/img/PRODUCT.jpeg)
 
 ## Limitations & Improvements
 
@@ -130,8 +130,8 @@ P.S. The V2 case containing Elite 2 Dusk is now permanently on my bag.
 
 ## Files
 
-- [Case V1](../../public/blog/posts/arknights-CAD/case_v1.stl)
+- [Case V1](/blog/posts/arknights-CAD/case_v1.stl)
 
-- [Case V2 (Clean)](../../public/blog/posts/arknights-CAD/case_v2_clean.stl)
+- [Case V2 (Clean)](/blog/posts/arknights-CAD/case_v2_clean.stl)
 
 
