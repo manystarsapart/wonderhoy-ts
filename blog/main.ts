@@ -103,7 +103,6 @@ function renderMenu() {
     </ul>
   `;
   
-  // Attach event listeners
   document.getElementById('sort-newest')?.addEventListener('pointerdown', () => {
     
     posts.sort((a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime());
@@ -115,7 +114,6 @@ function renderMenu() {
     renderPosts();
   });
   
-  // Tag filter listeners
   document.querySelectorAll('.tag-filter').forEach(checkbox => {
     checkbox.addEventListener('change', (e) => {
       

@@ -54,3 +54,7 @@ And here's a quote by Marcus Aurelius that I keep around:
     but not many would have absorbed it without capitulation or complaint."
 
 ---
+
+![Wonderhoy!](/assets/emu.png)
+
+---

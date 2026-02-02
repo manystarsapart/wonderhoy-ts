@@ -24,7 +24,7 @@ const slug = new URLSearchParams(location.search).get('slug')
 const container = document.getElementById('post-container')!
 
 if (!slug) {
-  container.innerHTML = 'No post specified'
+  container.innerHTML = 'No post specified. <a href="/blog/">Back</a>'
 } else {
   const entry:any = Object.entries(modules)
     .find(([path]) => slugFromPath(path) === slug)
