@@ -12,6 +12,7 @@ export default defineConfig({
         about: resolve(__dirname, 'about/index.html'),
         projects: resolve(__dirname, 'projects/index.html'),
         blog: resolve(__dirname, 'blog/index.html'),
+        blogPost: resolve(__dirname, 'blog/post.html'),
         contact: resolve(__dirname, 'contact/index.html'),
         playground: resolve(__dirname, 'playground/index.html'),
       },
