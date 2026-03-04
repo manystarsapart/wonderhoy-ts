@@ -3,6 +3,7 @@ title: 'iPhone Terminal'
 pubDate: 2025-09-24
 description: 'Why would anyone want a sandboxed terminal on the iPhone that can access nothing?'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/iphone-terminal/img/neofetch.png'
     alt: 'Neofetch command on the iPhone terminal'
@@ -104,3 +105,9 @@ This was a very simple project, if you can even call it one. It was mostly deali
 - <https://wiki.alpinelinux.org/wiki/Shell_management>
 - <https://unix.stackexchange.com/a/26557>
 - <https://unix.stackexchange.com/a/26827>
+
+---
+
+© 2025 msa - CC BY-NC-SA 4.0
+
+---

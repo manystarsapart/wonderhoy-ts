@@ -3,6 +3,7 @@ title: "Suzhou dialect's abbreviations"
 pubDate: 2025-08-21
 description: 'Originally just a little piece of linguistics biscuit I cooked up for my friends.'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/assets/emu.png'
     alt: 'Emu Otori'
@@ -24,3 +25,9 @@ Authored on: 乙巳年闰六月廿八日
 Fusion is probably ubiquitous in everything spoken but the interesting thing about these specific words is that they have been digitalised & included as standard chinese words. In my knowledge, the words themselves only started circulating in the current form in the late Qing dynasty. This was only around 200 years back so the words themselves are quite young.
 
 (P.S. If you want to read decently authentic linguistic transliterations of our spoken dialect: I recommend you take a look at 《海上花列传》by 韩邦庆. The book has its settings in Shanghai but is written in 苏白 - 苏州白话, AKA spoken suzhou dialect.)
+
+---
+
+© 2025 msa - CC BY-NC-SA 4.0
+
+---

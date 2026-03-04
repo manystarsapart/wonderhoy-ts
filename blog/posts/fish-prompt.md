@@ -3,6 +3,7 @@ title: 'Fish Shell Prompt'
 pubDate: 2025-08-17
 description: 'An attempt on further customising my terminal. Written for Fish, inspired by the inbuilt Informative style, but with some extra features.'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/fish-prompt/gradientDemo.png'
     alt: 'Demo of the terminal prompt showing a colour gradient for current directory path'
@@ -83,3 +84,9 @@ This was a fun journey as I gradually learnt more about my machine. There are ma
 I consulted Claude for some of the more technical aspects of status detection, which helped me immensely in overcoming these hurdles. 
 
 That is all. Thank you for reading till the end of this project. See you in the next one soon.
+
+---
+
+© 2025 msa - CC BY-NC-SA 4.0
+
+---

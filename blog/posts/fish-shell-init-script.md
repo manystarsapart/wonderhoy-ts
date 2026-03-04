@@ -3,6 +3,7 @@ title: 'Fish shell init script'
 pubDate: 2025-03-22
 description: 'My fish config file. A simple piece of initialiser code to make the terminal more convenient for dev purposes.'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/init-script/initScriptDemoMain.png'
     alt: 'Customised welcome message on fish shell'
@@ -100,3 +101,9 @@ Edit 17/08/2025: there are now time-specific greetings. Likewise, you may check 
 ![Init Script Demo 2](/blog/posts/init-script/initScriptDemo2.png)
 ![Init Script Demo 3](/blog/posts/init-script/initScriptDemo3.png)
 ![Init Script Demo 4](/blog/posts/init-script/initScriptDemo4.png)
+
+---
+
+© 2025 msa - CC BY-NC-SA 4.0
+
+---

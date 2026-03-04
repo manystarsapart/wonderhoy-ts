@@ -3,6 +3,7 @@ title: 'Salvaging Storage Devices (SSD)'
 pubDate: 2025-12-25
 description: 'I dig up computers and USB sticks and drives that are as old as me and try to rescue them.'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/storage-recovery/usbs.png'
     alt: '"hi ive been doing data recovery on 1938264728 usbs"'
@@ -111,3 +112,9 @@ At this point there was not much left to go through. We found old phones and an 
 ## Final Words
 
 Love vintage media. This time the post is less tech-journal and more nostalgia. Now I can film with real 2000s equipment though.
+
+---
+
+© 2025 msa - CC BY-NC-SA 4.0
+
+---

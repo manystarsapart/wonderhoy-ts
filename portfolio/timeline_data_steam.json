@@ -53,7 +53,8 @@
         "date": "Mar - May 2025",
         "details": [
             "Overall 1st placing in project & presentation.",
-            "Pitched working prototype to Temus."
+            "Pitched working prototype to Temus.",
+            "Pair project with Fwyr."
         ]
     },
     {
@@ -110,11 +111,6 @@
         ]
     },
     {
-        "event": "BlahajCTF",
-        "date": "Nov 2025",
-        "details": []
-    },
-    {
         "event": "World Robot Olympiad (WRO)",
         "date": "Jul 2024",
         "details": [
@@ -154,6 +150,7 @@
         "event": "NUS Electrical and Computer Engineering Principles and Practice Undergraduate Module (EE1111B)",
         "date": "May - Jun 2024",
         "details": [
+            "Grade: A",
             "Obtained 1st Placing in final project (mBot run).",
             "Mentors: Dr Soh Wee Seng & Dr Henry Tan"
         ]

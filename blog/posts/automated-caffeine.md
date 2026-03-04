@@ -3,6 +3,7 @@ title: 'Attempt on automating a Caffeine workflow'
 pubDate: 2025-06-14
 description: 'I tinker with a GNOME extension to stop my screen from dimming whenever I need it.'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/assets/emu.png'
     alt: 'Emu Otori'
@@ -209,3 +210,9 @@ I have also enabled Caffeine in my newly installed MX Linux system on my [Macboo
 [caffeineReminder.desktop](/blog/posts/automated-caffeine/caffeineReminder.desktop)
 
 [caffeine-on-resume.service](/blog/posts/automated-caffeine/caffeine-on-resume.service)
+
+---
+
+© 2025 msa - CC BY-NC-SA 4.0
+
+---

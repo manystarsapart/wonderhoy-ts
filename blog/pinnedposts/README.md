@@ -3,6 +3,7 @@ title: '[PINNED] Hello (Happy) World!'
 pubDate: 2026-02-02
 description: 'Some musings. Welcome to my blog!'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/assets/emu.png'
     alt: 'Emu Otori'
@@ -56,5 +57,9 @@ And here's a quote by Marcus Aurelius that I keep around:
 ---
 
 ![Wonderhoy!](/assets/emu.png)
+
+---
+
+© 2026 msa - CC BY-NC-SA 4.0
 
 ---

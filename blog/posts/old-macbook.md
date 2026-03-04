@@ -3,6 +3,7 @@ title: 'Revitalising my old Macbook with Linux'
 pubDate: 2025-09-03
 description: 'XFCE versus 4GB soldered RAM!!!'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/old-macbook/img/specs.png'
     alt: 'Emu Otori'
@@ -355,3 +356,9 @@ The computer is now capable of everyday tasks such as document editing and basic
 
 
 ![Arch meme](/blog/posts/old-macbook/img/iusearchbtw.png)
+
+---
+
+© 2025 msa - CC BY-NC-SA 4.0
+
+---

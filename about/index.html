@@ -1,78 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="icon" type="image/png" href="/assets/emu.png">
-    
-        <link rel="stylesheet" href="/src/style.css">
-        <title>About</title>
-        <script type="module" src="./events.ts"></script>
-    </head>
-<body id="about-body" class="subpage-body">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/assets/emu.png">
+
+    <link rel="stylesheet" href="/src/style.css">
+    <title>Contact</title>
+</head>
+<body id="contact-body" class="subpage-body">
     <nav class="flex-container">
         <a href="/" class="redirect">
             <img id="nav-icon" src="/assets/emu.png">
             </a>
             <a href="/" class="redirect">Home</a> 
             <div class="dropdown">
-            <button class="dropdown-button">Pages
-                <i class="down-arrow"></i>
-            </button>
-            <div class="dropdown-content">
-            <a href="/about/" class="redirect">About</a> 
-            <a href="/projects/" class="redirect">Projects</a> 
-            <a href="/blog/" class="redirect">Blog</a> 
-            <a href="/contact/" class="redirect">Contact</a> 
-                  </div>
-              </div>
-  
+                <button class="dropdown-button">Pages
+                    <i class="down-arrow"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="/about/" class="redirect">About</a> 
+                    <a href="/projects/" class="redirect">Projects</a> 
+                    <a href="/blog/" class="redirect">Blog</a> 
+                        <a href="/contact/" class="redirect">Contact</a> 
+                </div>
+            </div>  
       </nav>
-
-    <div class="subpage-content centered" style="width: 40% !important"> <!-- custom width to override centered class -->
-        <h1>About</h1>
-        <!-- WIP. -->
+    <div class="subpage-content">
+        WIP.
         <a href="/">back</a>
-
-        <hr>
-        
-        <h1>Education</h1>
-        <ul id="education-list" class="event-list"></ul>
-
-        <h1>Work</h1>
-        <ul id="work-list" class="event-list"></ul>
-
-        <!-- TODO WHEN I FIND WORK -->
-
-        <h1>Timeline</h1>
-        <h2>STEAM</h2>
-        <ul id="steam-list" class="event-list">
-            <li>Loading... </li>
-            <li>Please enable Javascript and refresh the page if this text persists.</li>
-        </ul>
-        <br \>
-        <h2>Bilingualism & Language Arts</h2>
-        <ul id="language-list" class="event-list"></ul>
-        <br \>
-        <h2>Media & Production</h2>
-        <ul id="media-list" class="event-list"></ul>
-        <br \>
-        <h2>Volunteering</h2>
-        <ul id="volunteering-list" class="event-list"></ul>
-        <br \>
-        <h2>Miscellaneous</h2>
-        <ul id="misc-list" class="event-list"></ul>
-        <br \>
     </div>
 
-    <style>
-        /* .event-list {
-            margin-bottom: 1rem;
-        } */
-
-        .event-list > li {
-            margin-top: 0.5rem;
-        }
-    </style>
+    
+    
 </body>
 </html>

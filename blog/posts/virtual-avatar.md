@@ -3,6 +3,7 @@ title: 'VTuber avatar on Ubuntu'
 pubDate: 2025-04-27
 description: 'This aims to serve as a guide and document my endeavor in figuring out how to render my virtual avatar model on Ubuntu.'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/virtual-avatar/OBSAvatarDemo2.png'
     alt: 'Customised welcome message on fish shell'
@@ -156,3 +157,9 @@ sudo modprobe v4l2loopback devices=1 exclusive_caps=1 card_label="OBS-VirtualCam
 ```
 
 There we go.
+
+---
+
+© 2025 msa - CC BY-NC-SA 4.0
+
+---

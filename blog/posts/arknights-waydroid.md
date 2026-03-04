@@ -3,6 +3,7 @@ title: 'Arknights on Waydroid'
 pubDate: 2025-08-17
 description: 'An attempt at running the game Arknights on Linux with native-ish methods.'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/arknights-waydroid/duskthumb.jpeg'
     alt: 'Emu Otori'
@@ -89,3 +90,9 @@ Presently it is getting late. I will call it a night for now, and hope the debug
 
 TBC. Maybe I will try again when the PC version of Arknights is out.
 
+
+---
+
+© 2025 msa - CC BY-NC-SA 4.0
+
+---

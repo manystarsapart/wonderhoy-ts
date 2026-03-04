@@ -3,6 +3,7 @@ title: 'CADing a Case for Arknights Authorisation Passes'
 pubDate: 2026-01-18
 description: 'Turning sketch to reality. Just like Dusk from the hit video game Arknights.'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/arknights-CAD/img/CAD7.jpeg'
     alt: 'Emu Otori'
@@ -135,3 +136,9 @@ P.S. The V2 case containing Elite 2 Dusk is now permanently on my bag.
 - [Case V2 (Clean)](/blog/posts/arknights-CAD/case_v2_clean.stl)
 
 
+
+---
+
+© 2026 msa - CC BY-NC-SA 4.0
+
+---

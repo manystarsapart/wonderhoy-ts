@@ -3,6 +3,7 @@ title: 'Expanding & Customising IBus Rime'
 pubDate: 2025-09-20
 description: 'I got to customising the looks of my input method (because the original font size was too small), and subsequently chanced upon the community-driven project of Rime word bank expansion.'
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/ibus-rime/img/lunaextended.png'
     alt: 'IBus Rime expansion bank'
@@ -99,3 +100,9 @@ I saw in the documentation that Rime actually supports Suzhou-Pinyin (Soutzoe) t
 - <https://wiki.archlinux.org/title/Rime>
 - <https://sspai.com/post/90068>
 - <https://tieba.baidu.com/p/5602640654#>
+
+---
+
+© 2025 msa - CC BY-NC-SA 4.0
+
+---

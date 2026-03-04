@@ -15,6 +15,7 @@ export default defineConfig({
         blogPost: resolve(__dirname, 'blog/post.html'),
         contact: resolve(__dirname, 'contact/index.html'),
         playground: resolve(__dirname, 'playground/index.html'),
+        portfolio: resolve(__dirname, 'portfolio/index.html'),
       },
     },
   },

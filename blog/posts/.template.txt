@@ -1,8 +1,9 @@
 ---
 title: ''
-pubDate: 2025-12-31
+pubDate: 2026-12-31
 description: ''
 author: 'msa'
+license: 'CC BY-NC-SA 4.0'
 image:
     url: '/assets/emu.png'
     alt: 'Emu Otori'
@@ -11,3 +12,14 @@ tags: [""]
 
 # Lorem Ipsum
 
+Content
+
+---
+
+☆———
+
+---
+
+© 2026 msa - CC BY-NC-SA 4.0
+
+---
