@@ -26,6 +26,8 @@ I had (and still have!) **ambitious plans** for this website. My plans were to m
 
 I have transferred my past blog posts from [my GitHub Repository "misc"](https://github.com/manystarsapart/misc) over to the Blog section of this website. **My future endeavors, be it tech-related or just random musings, will be published here**. Thank you for reading until this point. Maybe check my other posts out after reading this? 
 
+(Update Mar 2026: I also put up some of my past reviews onto the same blog.)
+
 If you want to find out further what type of nerd I am, here's the little intro I wrote in September:
 
 ### whoami

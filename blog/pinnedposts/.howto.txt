@@ -1,0 +1,4 @@
+1. use the template to create a pinned post
+2. name the md file "X-TITLE.md", in which X signifies the sequence of pinned posts shown
+--> 1-README.md will be top in the list
+3. add assets in the post if necessary, into the directory public/blog/pinnedPosts

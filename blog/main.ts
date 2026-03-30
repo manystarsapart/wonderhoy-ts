@@ -1,8 +1,9 @@
 import fm from 'front-matter';
 import type { BlogPost } from './types';
 
-const menuContainer = document.getElementById('blog-menu')!
-const blogContainer = document.getElementById('blog-list')!
+const menuContainer = document.getElementById('blog-menu')!;
+const blogContainer = document.getElementById('blog-list')!;
+// const screenWidth: number = window.innerWidth;
 
 
 // gets all markdowns in blog/posts
@@ -68,13 +69,17 @@ for (const path in pinnedModules) {
  
 }
 
-
-
 // console.log(posts)
 
 posts.sort( // default latest first
   (a, b) => new Date(b.pubDate).getTime() - new Date(a.pubDate).getTime()
 );
+
+pinnedPosts.sort( // by order of number in first char of file name. example: 1-README; 2-TOOLS
+  (a, b) => Number(String(b.slug).slice(0, 1)) - Number(String(a.slug).slice(0, 1))
+)
+
+console.log(pinnedPosts)
 
 function getAllUniqueTags(): string[] {
   const tagSet = new Set<string>();
@@ -105,6 +110,7 @@ function renderMenu() {
         </ul>
       </li>
     </ul>
+    <a href="https://notbyai.fyi/"><img id="not-by-ai" src="/assets/not-ai.png" style="float:right; scale: 0.8;" alt="Organic content by human, not AI."></a>
   `;
   
   document.getElementById('sort-newest')?.addEventListener('pointerdown', () => {
@@ -150,12 +156,13 @@ function renderPosts() {
 
 
   blogContainer.innerHTML = filteredPosts.map(post => `
+              <a href="/blog/post.html?slug=${post.slug}">
     <article class="post-card">
       <div class="post-content">
         <h2 style="margin-bottom:-0.2rem">
-          <a href="/blog/post.html?slug=${post.slug}">
+
             ${post.title}
-          </a>
+
         </h2>
         <span>---</span>
         <p style="margin-top:-0.2rem">
@@ -178,6 +185,7 @@ function renderPosts() {
         />
       ` : ''}
     </article>
+    </a>
   `).join('')
 
   // console.log(posts);
@@ -190,6 +198,7 @@ function renderPosts() {
 
 renderMenu();
 renderPosts();
+
 
 
 // =========================================================

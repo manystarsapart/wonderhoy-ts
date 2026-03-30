@@ -31,8 +31,12 @@
     <div class="subpage-content">
         <h1 style="text-align: center;">Blog</h1>
         <div id="main-flex">
-            <div id="blog-menu">
+            <div>
+                <div id="blog-menu"></div>
+                
+                
             </div>
+            
             <div id="blog-list">
                 <!-- THIS IS UPDATED DYNAMICALLY -->
                 Content loading...
@@ -83,12 +87,28 @@ nav {
     padding-bottom: 1rem;
 }
 
-article a {
+/* article a {
     color:black;
 }
 
 article a:visited {
     color: darkgray;
+} */
+
+a:has(> article) {
+    /* selects text inside unvisited post cards */
+    color: black;
+    text-decoration: none;
+}
+
+a:visited:has(> article) {
+    /* selects text inside visited post cards */
+    color:#707070;
+}
+
+a article h2 {
+    /* selects post title */
+    text-decoration: underline;
 }
 
 #main-flex{
@@ -144,12 +164,20 @@ article a:visited {
     display: flex;
     gap: 1.5rem;
     align-items: start;
-    background-color: rgba(240,248,255,0.5);
+    background-color: rgba(240,248,255,0.4);
     padding: 1rem;
     padding-left: 2rem;
     border-radius: 1rem;
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
+    /* margin-top: 0.5rem; */
+    /* margin-bottom: 0.5rem; */
+    margin: 0.5rem;
+    backdrop-filter: blur(8px)
+}
+
+.post-card:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transform: translateY(-2px);
+    transition: 0.1s;
 }
 
 .post-content {
@@ -174,6 +202,12 @@ article a:visited {
     #main-flex {
         flex-direction: column;
         overflow: auto;
+    }
+
+    #not-by-ai {
+        display: none;
+        /* TODO: figure out how to place this in mobile view while not looking out of place */
+        /* until then, this will remain hidden on mobile. unfortunately */
     }
     
     #blog-list, #blog-menu {
