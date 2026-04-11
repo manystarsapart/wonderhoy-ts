@@ -29,7 +29,7 @@
   
       </nav>
 
-    <div class="subpage-content centered" style="width: 40% !important"> <!-- custom width to override centered class -->
+    <div id="portfolio-content" class="subpage-content centered"> <!-- custom width to override centered class -->
         <h1>Portfolio</h1>
         <!-- WIP. -->
         <a href="/">back</a>
@@ -73,6 +73,19 @@
         .event-list > li {
             margin-top: 0.5rem;
         }
+
+        #portfolio-content {
+            min-width: 50%;
+
+            
+        }
+
+        @media (max-width: 768px) {
+            #portfolio-content {
+                width: 80%;
+            }
+
+}
     </style>
 </body>
 </html>
