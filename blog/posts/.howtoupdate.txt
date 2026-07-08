@@ -1,0 +1,8 @@
+cd wonderhoy-ts 
+
+npm run build
+
+git add .
+
+git commit -S -m "message"
+
