@@ -30,21 +30,38 @@
       </nav>
     <div class="subpage-content">
         <br>
+        <aside id="toc-sidebar" class="toc-sidebar"></aside>
         <div id="post-container">
             <article id="post">
-                Content loading...
-                <br>
-                If this screen persists, try turning on Javascript or refreshing.
-                <br>
-                <a href="/blog">Back</a>
+                <!-- THIS IS UPDATED DYNAMICALLY -->
+                <p style="text-align: center;">
+                  <b>Content loading...</b>
+                  <br>
+                  If this screen persists, try turning on Javascript or refreshing.
+              </p>
+              <br>
+              <br>
+              <img src="/assets/loading.gif" alt="Loading GIF" style="display:block;margin-left:auto;margin-right:auto;width:10%">
+              <br>
+              <br>
+              <p style="text-align: center;">
+                  "Sit still my heart, do not raise your dust. <br>
+                  Let the world find its way to you." — Rabindranath Tagore, Stray Birds 
+              </p>
+              <br>
+              <br>
+              <br>
+              <a href="/">Back</a>
             </article>
         </div>
-
     </div>
     <script type="module" src="./post.ts"></script>
+    <!-- loading GIF provided by loading.io -->
 </body>
 
 </html>
+
+
 
 <style>
 .post-content a {
@@ -71,6 +88,47 @@
   
 }
 
+.toc-sidebar {
+  position: fixed;
+  top: 11rem;
+  left: 2vw;
+  width: 200px;
+  max-height: 70vh;
+  overflow-y: auto;
+  font-size: 0.85rem;
+  padding-right: 0.5rem;
+}
+
+.toc-sidebar ul {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.toc-sidebar li {
+  margin: 0.4rem 0;
+}
+
+.toc-sidebar a {
+  text-decoration: none;
+  color: inherit;
+  opacity: 0.75;
+}
+
+.toc-sidebar a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+
+/* indent by heading level. why am i hardcoding this */
+
+.toc-sidebar .toc-h1 { padding-left: 0.75rem; text-decoration: underline dotted;}
+.toc-sidebar .toc-h2 { padding-left: 1.5rem; }
+.toc-sidebar .toc-h3 { padding-left: 2.25rem; }
+.toc-sidebar .toc-h4 { padding-left: 3rem; }
+.toc-sidebar .toc-h5 { padding-left: 3.75rem; }
+.toc-sidebar .toc-h6 { padding-left: 4.5rem; }
+
 @media (max-width: 768px) {
   .post-content {
     max-width: 90%;
@@ -79,6 +137,10 @@
   .post-content img {
     max-width: 100%;
     max-height: 70vh;
+  }
+
+  .toc-sidebar {
+    display: none;
   }
 }
 

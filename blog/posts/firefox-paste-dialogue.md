@@ -1,13 +1,13 @@
 ---
 title: 'Firefox paste pop-up is disrupting my workflow!'
 pubDate: 2026-07-08
-description: 'Fret not. There is always an extension for everything.'
+description: 'Security security security security security. Ugh.'
 author: 'msa'
 license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/firefox-paste-dialogue/dialogue.png'
     alt: 'Paste dialogue box'
-tags: ["Tech-Journal"]
+tags: ["Tech-Journal", "Linux"]
 ---
 
 # Firefox paste pop-up is disrupting my workflow!
@@ -75,11 +75,13 @@ Then I found this [post](https://www.reddit.com/r/firefox/comments/1dofgd2/pasti
 
 ![Mozilla solution](/blog/posts/firefox-paste-dialogue/mozilla-solution.png)
 
+![Mozilla solution in detail](/blog/posts/firefox-paste-dialogue/recommended.png)
+
 However, my `about:config` lacked such options, because it seems that Mozilla had bundled these options away. This is a no-go. 
 
 ![about:config lacking such options](/blog/posts/firefox-paste-dialogue/about-config.png)
 
-## Attempt 3
+### Attempt 3
 
 I searched `dom.events.testing.asyncClipboard` online and found this Github issue (https://github.com/coder/code-server/issues/1106) for the `code-server` repository. At the end of the issue thread, someone mentioned [this extension](https://addons.mozilla.org/en-US/firefox/addon/grant-clipboard/). This did not help, however. The extension could not bypass Firefox's security, because they cannot grant a website access to the clipboard. 
 
