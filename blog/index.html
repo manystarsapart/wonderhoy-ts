@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/png" href="/assets/emu.png">
         <link rel="stylesheet" href="/src/style.css">
-        <title>Blog Post</title>
+        <title>My Blog</title>
     </head>
 <body  id="blog-body" class="subpage-body">
     <nav class="flex-container">
@@ -201,7 +201,7 @@ a article h2 {
 
 .post-thumbnail {
     width: 200px;
-    height: 150px;
+    aspect-ratio: 4/3;
     object-fit: cover;
     border-radius: 8px;
     flex-shrink: 0; /* no shrink */
@@ -232,8 +232,11 @@ a article h2 {
     }
     
     .post-thumbnail {
-        width: 100%;
-        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        aspect-ratio: 4/3;
+        /* height: 200px; */
     }
 }
 

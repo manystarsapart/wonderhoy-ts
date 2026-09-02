@@ -5,12 +5,14 @@ description: '“In another world, we were already friends." ~Kokoro Anzai'
 author: 'msa'
 license: 'CC BY-NC-SA 4.0'
 image:
-    url: '/assets/emu.png'
-    alt: 'Emu Otori'
+    url: '/blog/posts/review-lonely-castle/thumbnail.png'
+    alt: 'Book Cover'
 tags: ["Reviews", "Asian Literature"]
 ---
 
 # Lonely Castle in the Mirror - Mizuki Tsujimura
+
+![Book Cover](../../public/blog/posts/review-lonely-castle/thumbnail.png)
 
 7/10
 

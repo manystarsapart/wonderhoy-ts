@@ -1,6 +1,11 @@
 # Created by https://gitignore.org
 # Node.gitignore
 
+
+# BLOGS IN-PROGRESS
+public/blog/todo/
+blog/todo/
+
 # Logs
 logs
 *.log

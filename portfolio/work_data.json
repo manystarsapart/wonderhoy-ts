@@ -1,9 +1,21 @@
 [
     {
+        "event": "Project Officer — Headquarters, Republic of Singapore Air Force",
+        "date": "Jun 2026 - Sep 2026",
+        "details": [ 
+            "Project planning and coordination.",
+            "Microsoft Power Platform, Excel VBA, Graphic Design"
+        ]
+    },
+    {
         "event": "Internship — Fan Yi Tang TCM",
         "date": "May 2025 - Present",
         "details": [
-            "Managed finances via Excel.",
+            "Developed a customised automation workflow for daily business processes & CRM.",
+            "Created and maintained a public website for the clinic.",
+            "Piloted digitalisation initiatives.",
+            "Managed finances and marketing.",
+            "Managed inventory and routine stocktaking.",
             "Prepared monthly audit reports and end-of-year financial summaries."
         ]
     },

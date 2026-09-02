@@ -5,12 +5,14 @@ description: '"God, I ask you, is non-resistance a sin?" ~Oba Yozo'
 author: 'msa'
 license: 'CC BY-NC-SA 4.0'
 image:
-    url: '/assets/emu.png'
-    alt: 'Emu Otori'
+    url: '/blog/posts/review-no-longer-human/thumbnail.png'
+    alt: 'Book Cover'
 tags: ["Reviews", "Asian Literature"]
 ---
 
 # No Longer Human - Osamu Dazai
+
+![Book Cover](../../public/blog/posts/review-no-longer-human/thumbnail.png)
 
 7/10
 

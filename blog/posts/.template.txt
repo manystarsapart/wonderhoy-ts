@@ -5,7 +5,7 @@ description: ''
 author: 'msa'
 license: 'CC BY-NC-SA 4.0'
 image:
-    url: '/assets/emu.png'
+    url: '/assets/emu.png' THUMBNAIL MUST BE 4/3 ASPECT RATIO
     alt: 'Emu Otori'
 tags: [""]
 ---

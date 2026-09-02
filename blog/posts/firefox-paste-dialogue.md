@@ -7,7 +7,7 @@ license: 'CC BY-NC-SA 4.0'
 image:
     url: '/blog/posts/firefox-paste-dialogue/dialogue.png'
     alt: 'Paste dialogue box'
-tags: ["Tech-Journal", "Linux"]
+tags: ["Linux", "Tech-Journal"]
 ---
 
 # Firefox paste pop-up is disrupting my workflow!

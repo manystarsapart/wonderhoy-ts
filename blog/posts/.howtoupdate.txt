@@ -13,3 +13,51 @@ git push
 for posts, refer to:
 - blog/pinnedposts/.howto.txt 
 - blog/posts/.template.txt
+
+for adding files to posts,
+
+1. create the markdown file for the post in this directory (e.g. test-1-2-3.md)
+2. create a folder named word-for-word after the file in /blog/posts (e.g. /blog/posts/test-1-2-3)
+3. put your media in that post's folder (e.g. /blog/posts/test-1-2-3/thumbnail.png)
+
+
+for adding images to posts,
+
+```md
+![SkySynth Player](/blog/posts/skysynth-1/player.png "SkySynth Player interface.")
+```
+
+
+for adding videos to posts,
+
+```md
+<figure class="post-figure">
+  <video 
+    controls
+    preload="metadata">
+    <source src="/blog/posts/skysynth-1/letter-in-orange-demo.mp4" type="video/mp4">
+    Sorry, your browser doesn't support embedded videos...
+  </video>
+  <figcaption>SkySynth Demo. Song: Letter in Orange (Arknights EP)</figcaption>
+</figure>
+```
+
+just change the source and figcaption.
+
+
+for adding youtube video embeds to posts,
+
+```md
+<figure class="post-figure">
+  <div class="video-embed">
+    <iframe 
+      src="https://www.youtube.com/embed/76b-fVC1lSA" 
+      title="YouTube video player" 
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+      referrerpolicy="strict-origin-when-cross-origin" 
+      allowfullscreen>
+    </iframe>
+  </div>
+  <figcaption>My setup before the touchscreen broke. Song: Through Patches of Violet (Limbus Company)</figcaption>
+</figure>
+```

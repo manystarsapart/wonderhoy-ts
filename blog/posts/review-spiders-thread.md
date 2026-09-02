@@ -5,12 +5,14 @@ description: '"Listen to me, you sinners! This spider thread is mine! Who said y
 author: 'msa'
 license: 'CC BY-NC-SA 4.0'
 image:
-    url: '/assets/emu.png'
-    alt: 'Emu Otori'
+    url: '/blog/posts/review-spiders-thread/thumbnail.png'
+    alt: 'Book Cover'
 tags: ["Reviews", "Asian Literature"]
 ---
 
 # The Spider's Thread - Ryūnosuke Akutagawa
+
+![Book Cover](/blog/posts/review-spiders-thread/thumbnail.png)
 
 6/10
 

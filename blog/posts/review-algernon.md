@@ -5,12 +5,14 @@ description: '"Who and what am I now? Am I the sum of my life or only of the pas
 author: 'msa'
 license: 'CC BY-NC-SA 4.0'
 image:
-    url: '/assets/emu.png'
-    alt: 'Emu Otori'
+    url: '/blog/posts/review-algernon/thumbnail.png'
+    alt: 'Book Cover'
 tags: ["Reviews"]
 ---
 
 # Flowers for Algernon - Daniel Kayes
+
+![Book Cover](../../public/blog/posts/review-algernon/thumbnail.png)
 
 8.5/10
 

@@ -110,7 +110,7 @@ function renderMenu() {
         </ul>
       </li>
     </ul>
-    <a href="https://notbyai.fyi/"><img id="not-by-ai" src="/assets/not-ai.png" style="float:right; scale: 0.8;" alt="Organic content by human, not AI."></a>
+    <a href="https://notbyai.fyi/" target="_blank"><img id="not-by-ai" src="/assets/not-ai.png" style="float:right; scale: 0.8;" alt="Organic content by human, not AI."></a>
   `;
   
   document.getElementById('sort-newest')?.addEventListener('pointerdown', () => {

@@ -44,6 +44,17 @@ Signing off, sero (22 Sep 2025)
 
 ---
 
+## More info...
+
+Written on 29 Aug 2026.
+
+I figured I should put more facts about me here. Here are some things I found remarkable enough in recent times:
+
+- I started bouldering with my peers a little more often in 2026.
+- ASOUL贝拉乃琳2026万舰有我！~~（绝对不是管人痴！我有我的节奏！）~~
+
+---
+
 
 And here's a quote by Marcus Aurelius that I keep around:
 

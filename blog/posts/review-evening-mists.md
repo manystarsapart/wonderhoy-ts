@@ -5,12 +5,14 @@ description: '"The travesty of literature is that we are each only one person" ~
 author: 'msa'
 license: 'CC BY-NC-SA 4.0'
 image:
-    url: '/assets/emu.png'
-    alt: 'Emu Otori'
+    url: '/blog/posts/review-evening-mists/thumbnail.png'
+    alt: 'Book Cover'
 tags: ["Reviews", "Asian Literature"]
 ---
 
 # The Garden of Evening Mists - Tan Twan Eng
+
+![Book Cover](../../public/blog/posts/review-evening-mists/thumbnail.png)
 
 8/10
 
