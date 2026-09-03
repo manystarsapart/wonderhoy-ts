@@ -79,6 +79,7 @@ Hence, in January 2025, I made the app with my frustrations in mind. Here's what
 <figure class="post-figure">
   <video 
     controls
+    playsinline 
     preload="metadata">
     <source src="/blog/posts/skysynth-1/letter-in-orange-demo.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos...
@@ -98,6 +99,7 @@ The process.
 <figure class="post-figure">
   <video 
     controls
+    playsinline 
     preload="metadata">
     <source src="/blog/posts/skysynth-1/dev_180125.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos...
@@ -110,6 +112,7 @@ The process.
 <figure class="post-figure">
   <video 
     controls
+    playsinline 
     preload="metadata">
     <source src="/blog/posts/skysynth-1/dev_230125.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos...
@@ -122,6 +125,7 @@ The process.
 <figure class="post-figure">
   <video 
     controls
+    playsinline 
     preload="metadata">
     <source src="/blog/posts/skysynth-1/dev_280125.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos...
@@ -135,6 +139,7 @@ The process.
 <figure class="post-figure">
   <video 
     controls
+    playsinline 
     preload="metadata">
     <source src="/blog/posts/skysynth-1/dev_090425.mp4" type="video/mp4">
     Sorry, your browser doesn't support embedded videos...
